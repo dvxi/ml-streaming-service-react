@@ -8,15 +8,15 @@ const Home : React.FC = () => {
           </div>
         </div>
         <div className="container mx-auto">
-          <div className="rounded-lg border border-zinc-700 bg-zinc-900 text-zinc-400 p-1 px-4 mb-2
+          <div className="rounded-lg border border-zinc-700 bg-zinc-900 text-zinc-400 p-1 px-4 mb-2 w-96
           hover:bg-zinc-800 hover:text-zinc-200">
             <a href="https://github.com/General-Embedded/pico-tflmicro">Embedded Software Repository</a>
           </div>
-          <div className="rounded-lg border border-zinc-700 bg-zinc-900 text-zinc-400 p-1 px-4 mb-2
+          <div className="rounded-lg border border-zinc-700 bg-zinc-900 text-zinc-400 p-1 px-4 mb-2 w-96
           hover:bg-zinc-800 hover:text-zinc-200">
             <a href="https://github.com/OmegaCreations/StreamingService-for-Ethernet-Data">Backend Repository</a>
           </div>
-          <div className="rounded-lg border border-zinc-700 bg-zinc-900 text-zinc-400 p-1 px-4 mb-2
+          <div className="rounded-lg border border-zinc-700 bg-zinc-900 text-zinc-400 p-1 px-4 mb-2 w-96
           hover:bg-zinc-800 hover:text-zinc-200">
             <a href="https://github.com/dvxi/ml-streaming-service-react">Frontend Repository</a>
           </div>
