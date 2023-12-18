@@ -14,11 +14,11 @@ const Home : React.FC = () => {
           </div>
           <div className="rounded-lg border border-zinc-700 bg-zinc-900 text-zinc-400 p-1 px-4 mb-2
           hover:bg-zinc-800 hover:text-zinc-200">
-            <a href="https://github.com/General-Embedded/pico-tflmicro">Backend Repository</a>
+            <a href="https://github.com/OmegaCreations/StreamingService-for-Ethernet-Data">Backend Repository</a>
           </div>
           <div className="rounded-lg border border-zinc-700 bg-zinc-900 text-zinc-400 p-1 px-4 mb-2
           hover:bg-zinc-800 hover:text-zinc-200">
-            <a href="https://github.com/General-Embedded/pico-tflmicro">Frontend Repository</a>
+            <a href="https://github.com/dvxi/ml-streaming-service-react">Frontend Repository</a>
           </div>
         </div>
       </>
