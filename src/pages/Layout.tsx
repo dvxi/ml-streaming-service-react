@@ -5,7 +5,7 @@ const Layout : React.FC = () => {
     <div className="bg-black w-screen h-screen">
       <div className="flex flex-row justify-between items-center top-0 left-0 right-0 p-5 border-b border-zinc-900 bg-zinc-950">
         <div>
-          <p className="text-xl text-zinc-400">General Embedded</p>
+          <p className="text-xl font-semibold text-zinc-400">General Embedded</p>
           <p className="text-sm text-zinc-600">Machine Learning Project</p>
         </div>
         <div className="flex flex-row">
