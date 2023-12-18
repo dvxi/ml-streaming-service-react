@@ -2,20 +2,25 @@ import { Outlet, Link } from "react-router-dom";
 
 const Layout : React.FC = () => {
   return (
-    <>
-      <div className="flex flex-row justify-between items-center fixed-top top-0 left-0 right-0 p-5">
+    <div className="bg-black w-screen h-screen">
+      <div className="flex flex-row justify-between items-center top-0 left-0 right-0 p-5 border-b border-zinc-900 bg-zinc-950">
         <div>
-          <p className="text-xl">General Embedded</p>
+          <p className="text-xl text-zinc-400">General Embedded</p>
+          <p className="text-sm text-zinc-600">Machine Learning Project</p>
         </div>
-        <div>
-          <Link className="mx-3" to="/">Home</Link>
-          <Link className="mx-3" to="/images">Images</Link>
-          <Link className="mx-3" to="/streaming">Streaming</Link>
+        <div className="flex flex-row">
+        <div className="rounded-lg border-zinc-900 p-1 px-5 mx-2 text-zinc-400 hover:text-zinc-200">
+            <Link to="/">Home Page</Link>
+          </div>
+          <div className="rounded-lg border border-zinc-700 bg-zinc-900 text-zinc-400 p-1 px-4 mx-2
+          hover:bg-zinc-800 hover:text-zinc-200">
+            <Link to="/images">Live Images Feed</Link>
+          </div>
         </div>
       </div>
 
       <Outlet />
-    </>
+    </div>
   )
 };
 
