@@ -2,7 +2,7 @@ import { Outlet, Link } from "react-router-dom";
 
 const Layout : React.FC = () => {
   return (
-    <div className="bg-black w-screen h-screen">
+    <div className="bg-black w-screen min-h-screen pb-10">
       <div className="flex flex-row justify-between items-center top-0 left-0 right-0 p-5 border-b border-zinc-900 bg-zinc-950">
         <div>
           <p className="text-xl font-semibold text-zinc-400">General Embedded</p>
