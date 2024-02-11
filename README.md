@@ -6,10 +6,6 @@ Welcome to the frontend repository for the Crater Detection System project, deve
 
 For more detailed information about the project, including its development process, challenges, and achievements, please visit our project page: [https://www.szymongwozdz.com/projects/machine-learning](https://www.szymongwozdz.com/projects/machine-learning).
 
-## More information about the project
-
-- **Project's website**: 
-
 ## Technical Stack
 
 - **Frontend**: React, Tailwind.css, Vite
