@@ -2,6 +2,14 @@
 
 Welcome to the frontend repository for the Crater Detection System project, developed as part of the "Machine Learning in Robotics and Edge Devices for Space Exploration" elective course. This project focuses on utilizing a custom object detection machine learning model to efficiently detect craters, minimizing network load for space exploration. The system integrates this model with a custom web application to display real-time, filtered footage of detected craters.
 
+## Learn More
+
+For more detailed information about the project, including its development process, challenges, and achievements, please visit our project page: [https://www.szymongwozdz.com/projects/machine-learning](https://www.szymongwozdz.com/projects/machine-learning).
+
+## More information about the project
+
+- **Project's website**: 
+
 ## Technical Stack
 
 - **Frontend**: React, Tailwind.css, Vite
